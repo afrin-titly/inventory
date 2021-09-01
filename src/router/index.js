@@ -4,7 +4,7 @@ const routes = [
     {
         path: "/",
         name: "Hello",
-        conponent: Hello
+        component: Hello
     }
 ]
 const router = createRouter({

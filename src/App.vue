@@ -1,7 +1,7 @@
 <template>
-<div>
+<div id="app">
   <router-link to="/">Hello</router-link>
-  <router-view></router-view>
+  <router-view ></router-view>
 
   <!-- </router-view> -->
   <!-- <Navbar @search="search" ></Navbar>
@@ -33,6 +33,7 @@ export default {
     // Navbar, 
     // Cart, 
     // Inventory,
+    
   },
   data() {
     return{
